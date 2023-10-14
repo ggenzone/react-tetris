@@ -1,9 +1,11 @@
+import PlaygroundPage from "./features/tetris"
+
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="min-h-full w-full backgroundImage">
+      <PlaygroundPage />
+    </div>
   )
 }
 
