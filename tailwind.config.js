@@ -7,7 +7,12 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
 	],
-  theme: {
+  theme: {    
+    backgroundImage: {
+      // https://heropatterns.com/
+      'hero-pattern': "url('/img/hero-pattern.svg')",
+      'hero-pattern2': "url('/img/hero-pattern2.svg')"
+    },
     container: {
       center: true,
       padding: "2rem",

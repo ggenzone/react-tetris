@@ -1,7 +1,5 @@
-import { Separator } from "@/components/ui/separator"
-
-import { useEffect, useRef } from "react"
-
+import { useEffect, useRef } from 'react'
+import { Separator } from '@/components/ui/separator'
 
 
 export default function PlaygroundPage() {
@@ -38,7 +36,7 @@ export default function PlaygroundPage() {
               <div className="md:order-1">
                 <div className="mt-0 border-0 p-0">
                   <div className="flex h-full flex-col space-y-4">
-                    <canvas ref={refCanvas} />
+                    <canvas ref={refCanvas} className='rounded-sm border'/>
                   </div>
                 </div>
               </div>
